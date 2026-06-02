@@ -15,6 +15,11 @@ This repository contains an automated scraping pipeline implemented inside a Jup
 * **Headquarters**: Primary city and state operational base.
 
 ---
+## 📂 Repository Structure
+```text
+├── Company_Revenue_Scraper.ipynb  # Core web scraping & parsing code
+└── Company_Revenue_Scraper.csv    # Final structured tabular output dataset
+```
 
 
 
