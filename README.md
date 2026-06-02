@@ -37,7 +37,7 @@ pip install beautifulsoup4 pandas requests notebook
 ### Execution Steps
 1. Clone this repository to your machine:
    ```bash
-   git clone https://github.com
+   git clone https://github.com/usmanali9999/Company_Revenue_Scraper.git
    cd Company_Revenue_Scraper
    ```
 2. Start the Jupyter workspace environment:
