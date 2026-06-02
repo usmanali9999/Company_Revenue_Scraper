@@ -17,7 +17,6 @@ This repository contains an automated scraping pipeline implemented inside a Jup
 ---
 
 
----
 
 ## 🛠️ Built With
 * **Python 3** - Underlying programming runtime.
