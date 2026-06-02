@@ -16,11 +16,6 @@ This repository contains an automated scraping pipeline implemented inside a Jup
 
 ---
 
-## 📂 Repository Structure
-```text
-├── Company_Revenue_Scraper.ipynb  # Core web scraping & parsing code
-└── Company_Revenue_Scraper.csv    # Final structured tabular output dataset
-```
 
 ---
 
