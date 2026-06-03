@@ -14,11 +14,14 @@ This repository contains an automated scraping pipeline implemented inside a Jup
 * **Employees**: Worldwide corporate workforce scale.
 * **Headquarters**: Primary city and state operational base.
 
----
 ## 📂 Repository Structure
 ```text
-├── Company_Revenue_Scraper.ipynb  # Core web scraping & parsing code
-└── Company_Revenue_Scraper.csv    # Final structured tabular output dataset
+├── 1_Company_Revenue_Scraper.ipynb  # Core web scraping & parsing code
+├── 2_Company_Revenue_Scraper.csv    # Final structured tabular output dataset
+├── .gitignore                       # System files to ignore in Git
+├── LICENSE                          # Project licensing details
+├── README.md                        # Documentation handbook
+└── requirements.txt                 # Project library dependencies
 ```
 
 
@@ -34,9 +37,9 @@ This repository contains an automated scraping pipeline implemented inside a Jup
 ## 🚀 Getting Started
 
 ### Prerequisites
-Ensure your local environment has the required dependencies installed:
+Ensure your local development environment is configured by installing the core library dependencies directly from the project's layout configuration file:
 ```bash
-pip install beautifulsoup4 pandas requests notebook
+pip install -r requirements.txt
 ```
 
 ### Execution Steps
@@ -49,7 +52,7 @@ pip install beautifulsoup4 pandas requests notebook
    ```bash
    jupyter notebook
    ```
-3. Open and run all cell groups inside `Company_Revenue_Scraper.ipynb` to regenerate the live data.
+3. Open and run all cell groups inside `1_Company_Revenue_Scraper.ipynb` to regenerate the live data.
 
 ---
 
